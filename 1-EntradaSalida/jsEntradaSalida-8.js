@@ -6,7 +6,7 @@ function SacarResto()
 {
     var num1;
     var num2;
-    var SacarResto;
+    var resultado;
 
     num1 = document.getElementById("numeroDividendo").value;
 
@@ -16,7 +16,7 @@ function SacarResto()
 
     num2 = parseInt(num2);
 
-    SacarResto = num1 % num2;
+    resultado = num1 % num2;
 
-    altert ("El resto es " + SacarResto);
+    alert ("El resto es " + resultado);
 }
